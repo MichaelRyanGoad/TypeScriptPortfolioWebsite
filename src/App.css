@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,11 +17,111 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+h1 {
+  font-size: 6vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "visitor";
+}
+
+.namePlateParent {
+  display: inline-flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  background-image: url("./Assets/CroppedMountain.png");
+  background-position: center;
+  background-size: cover;
+  background-position-y: 95%;
+}
+
+.namePlateChildText {
+  flex-grow: 1;
+  margin-right: 5%;
+}
+
+.namePlateChildText h1 {
+  font-size: 8vw;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25%;
+  margin-right: auto;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.namePlateChildPicture {
+  flex-grow: 1;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.namePlateChildPicture h1 {
+  font-size: 6vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.namePlateChildPicture img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 100%;
+}
+
+.namePlateChildPicture img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 244, 0, 0.5);
+}
+
+.namePlateChildPicture img:active {
+  animation: testAnim 5s;
+}
+
+@keyframes testAnim {
+  100% {
+    rotate: 360deg;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "visitor";
+  src: local("visitor1"), url("./fonts/visitor1.ttf") format("truetype");
+}
+
+* {
+  font-family: "visitor";
+}
+
+.pdfFrame {
+  width: 100%;
+  height: 75vh;
+}
+
+.navlink {
+  font-size: large;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.center {
+  text-align: center;
 }
