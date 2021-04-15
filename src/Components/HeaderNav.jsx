@@ -5,6 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import LIP from "../Pages/PageAssets/LinkedinLogo.png";
 import GML from "../Pages/PageAssets/MailLogo.png";
 import GHL from "../Pages/PageAssets/GHLogo.png";
+import { Dropdown } from "react-bootstrap";
 
 const HeaderNav = () => (
   <>
@@ -24,14 +25,33 @@ const HeaderNav = () => (
             <NavDropdown.Item href="/projects/sortingvis" className="navlink">
               React Data Sorting Visual
             </NavDropdown.Item>
+            <NavDropdown.Item href="/projects/fizzbuzz" className="navlink">
+              React FizzBuzz
+            </NavDropdown.Item>
+            <Dropdown.Divider />
             <NavDropdown.Item
               href="https://github.com/MichaelRyanGoad/OSRS_DATA_SCRAPER"
               className="navlink"
             >
               OSRS Data Scraper
             </NavDropdown.Item>
-            <NavDropdown.Item href="/projects/fizzbuzz" className="navlink">
-              React FizzBuzz
+            <NavDropdown.Item
+              href="https://github.com/MichaelRyanGoad/Auth0Example"
+              className="navlink"
+            >
+              Auth0 Example
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              href="https://github.com/MichaelRyanGoad/TwitterBot"
+              className="navlink"
+            >
+              Twitter Bot
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              href="https://github.com/MichaelRyanGoad/DNDS2"
+              className="navlink"
+            >
+              DND Scheduler
             </NavDropdown.Item>
             <NavDropdown.Item
               href="https://randomroyale222.herokuapp.com/"
