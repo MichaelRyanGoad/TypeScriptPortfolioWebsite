@@ -1,4 +1,3 @@
-import React from "react";
 import TitleJumbo from "./TitleJumbo";
 import resume from "../Assets/Resume.pdf";
 import letter from "../Assets/LoR2019.pdf";

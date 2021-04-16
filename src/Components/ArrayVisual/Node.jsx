@@ -1,5 +1,3 @@
-import React from "react";
-
 function Node(data) {
   //default values
   let height = (data.num / data.arrSize / 2) * 100 + "vh";
