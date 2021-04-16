@@ -125,3 +125,9 @@ h1 {
 .center {
   text-align: center;
 }
+
+pre {
+  color: white;
+  overflow: scroll;
+  width: 100vw;
+}

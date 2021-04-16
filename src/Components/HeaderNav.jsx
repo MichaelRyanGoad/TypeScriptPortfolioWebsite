@@ -27,6 +27,9 @@ const HeaderNav = () => (
             <NavDropdown.Item href="/projects/fizzbuzz" className="navlink">
               React FizzBuzz
             </NavDropdown.Item>
+            <NavDropdown.Item href="/projects/auth0" className="navlink">
+              Auth0 Protected Page
+            </NavDropdown.Item>
             <Dropdown.Divider />
             <NavDropdown.Item
               href="https://github.com/MichaelRyanGoad/OSRS_DATA_SCRAPER"

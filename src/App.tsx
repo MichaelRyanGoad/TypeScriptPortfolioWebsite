@@ -9,6 +9,7 @@ import SearchingVisual from "./Components/SearchingVisual/SearchingVisual.jsx";
 import ProtectedRoute from "./auth/protected-route";
 import { useAuth0 } from "@auth0/auth0-react";
 import Loading from "./Components/Loading";
+import Profile from "./Components/profile";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -23,7 +24,7 @@ function App() {
       <Route path="/projects/sortingvis" component={ArrayVisual} />
       <Route path="/projects/fizzbuzz" component={FizzBuzz} />
       <Route path="/projects/searchingvis" component={SearchingVisual} />
-      <ProtectedRoute path="/auth" component={<p>YOU DID IT</p>} />
+      <ProtectedRoute path="/projects/auth0" component={Profile} />
     </Router>
   );
 }
