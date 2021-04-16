@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import LIP from "../Pages/PageAssets/LinkedinLogo.png";
-import GML from "../Pages/PageAssets/MailLogo.png";
-import GHL from "../Pages/PageAssets/GHLogo.png";
+import LIP from "../Assets/LinkedinLogo.png";
+import GML from "../Assets/MailLogo.png";
+import GHL from "../Assets/GHLogo.png";
 import { Dropdown } from "react-bootstrap";
 
 const HeaderNav = () => (

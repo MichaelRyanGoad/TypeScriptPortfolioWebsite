@@ -1,0 +1,12 @@
+.loader {
+    display: flex;
+    align-items: center;
+}
+
+.loader__text {
+    margin: 0;
+}
+
+.spinner-container {
+    margin-right: 1rem;
+}

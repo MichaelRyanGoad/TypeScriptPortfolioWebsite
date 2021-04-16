@@ -1,8 +1,8 @@
 import React from "react";
 import TitleJumbo from "../Components/TitleJumbo";
-import resume from "./PageAssets/Resume.pdf";
-import letter from "./PageAssets/LoR2019.pdf";
-import degree from "./PageAssets/Degree.pdf";
+import resume from "../Assets/Resume.pdf";
+import letter from "../Assets/LoR2019.pdf";
+import degree from "../Assets/Degree.pdf";
 import { Carousel } from "react-bootstrap";
 
 const HomePage = () => {
