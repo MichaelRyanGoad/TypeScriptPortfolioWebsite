@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { HomePage } from "./Pages";
+import HomePage from "./Components/homepage";
 import HeaderNav from "./Components/HeaderNav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ArrayVisual from "./Components/ArrayVisual/ArrayVisual";

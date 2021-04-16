@@ -1,5 +1,5 @@
 import React from "react";
-import TitleJumbo from "../Components/TitleJumbo";
+import TitleJumbo from "./TitleJumbo";
 import resume from "../Assets/Resume.pdf";
 import letter from "../Assets/LoR2019.pdf";
 import degree from "../Assets/Degree.pdf";
