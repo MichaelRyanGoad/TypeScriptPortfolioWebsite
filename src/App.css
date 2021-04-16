@@ -102,7 +102,7 @@ h1 {
 
 @font-face {
   font-family: "visitor";
-  src: local("visitor1"), url("./fonts/visitor1.ttf") format("truetype");
+  src: local("visitor1"), url("./Assets/visitor1.ttf") format("truetype");
 }
 
 * {
