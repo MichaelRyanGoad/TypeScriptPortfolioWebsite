@@ -10,7 +10,7 @@ const TitleJumbo = () => {
           <h1>Goad</h1>
         </div>
         <div className="namePlateChildPicture">
-          <img src={profpic} alt="Profile"></img>
+          <img src={profpic} alt="Profile by @caiagrace @goodbirdmedia"></img>
         </div>
       </div>
     </>
