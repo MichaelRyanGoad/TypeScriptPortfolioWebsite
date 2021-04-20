@@ -10,7 +10,7 @@ import ProtectedRoute from "./auth/protected-route";
 import { useAuth0 } from "@auth0/auth0-react";
 import Loading from "./Components/Loading";
 import Profile from "./Components/profile";
-import ThreeExample from "./Components/Three/threeExample.jsx";
+// import ThreeExample from "./Components/Three/threeExample.jsx";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -25,7 +25,7 @@ function App() {
       <Route path="/projects/sortingvis" component={ArrayVisual} />
       <Route path="/projects/fizzbuzz" component={FizzBuzz} />
       <Route path="/projects/searchingvis" component={SearchingVisual} />
-      <Route path="/projects/threejs" component={ThreeExample} />
+      {/* <Route path="/projects/threejs" component={ThreeExample} /> */}
       <ProtectedRoute path="/projects/auth0" component={Profile} />
     </Router>
   );
