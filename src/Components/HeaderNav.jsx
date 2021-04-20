@@ -27,13 +27,16 @@ const HeaderNav = () => (
             <NavDropdown.Item href="/projects/fizzbuzz" className="navlink">
               React FizzBuzz
             </NavDropdown.Item>
-            {/* <NavDropdown.Item href="/projects/threejs" className="navlink">
-              3D Rendering - ThreeJS
-            </NavDropdown.Item> */}
             <NavDropdown.Item href="/projects/auth0" className="navlink">
               Auth0 Protected Page
             </NavDropdown.Item>
             <Dropdown.Divider />
+            <NavDropdown.Item
+              href="https://michaelryangoad.github.io/TheCube/"
+              className="navlink"
+            >
+              3D Rendering - ThreeJS
+            </NavDropdown.Item>
             <NavDropdown.Item
               href="https://github.com/MichaelRyanGoad/OSRS_DATA_SCRAPER"
               className="navlink"
